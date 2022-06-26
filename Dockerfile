@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 
-ARG URL=https://github.com/Netflix/metaflow-service/archive/refs/tags/2.0.5.tar.gz
+ARG URL=https://github.com/Netflix/metaflow-service/archive/refs/tags/v2.3.1.tar.gz
 
 RUN apt-get update && \
     apt-get install --no-install-recommends -y libpq-dev curl build-essential && \
